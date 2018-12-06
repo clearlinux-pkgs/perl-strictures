@@ -4,7 +4,7 @@
 #
 Name     : perl-strictures
 Version  : 2.000005
-Release  : 5
+Release  : 6
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/strictures-2.000005.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/strictures-2.000005.tar.gz
 Summary  : 'turn on strict and make most warnings fatal'
