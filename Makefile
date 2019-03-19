@@ -1,5 +1,5 @@
 PKG_NAME := perl-strictures
-URL = https://cpan.metacpan.org/authors/id/E/ET/ETHER/strictures-2.000005.tar.gz
+URL = https://cpan.metacpan.org/authors/id/H/HA/HAARG/strictures-2.000006.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
