@@ -4,10 +4,10 @@
 #
 Name     : perl-strictures
 Version  : 2.000006
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/H/HA/HAARG/strictures-2.000006.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/H/HA/HAARG/strictures-2.000006.tar.gz
-Summary  : 'Turn on strict and make most warnings fatal'
+Summary  : Turn on strict and make most warnings fatal
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-strictures-license = %{version}-%{release}
@@ -26,6 +26,7 @@ use strictures 2;
 Summary: dev components for the perl-strictures package.
 Group: Development
 Provides: perl-strictures-devel = %{version}-%{release}
+Requires: perl-strictures = %{version}-%{release}
 
 %description dev
 dev components for the perl-strictures package.
