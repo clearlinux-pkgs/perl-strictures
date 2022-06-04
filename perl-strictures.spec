@@ -4,7 +4,7 @@
 #
 Name     : perl-strictures
 Version  : 2.000006
-Release  : 20
+Release  : 21
 URL      : https://cpan.metacpan.org/authors/id/H/HA/HAARG/strictures-2.000006.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/H/HA/HAARG/strictures-2.000006.tar.gz
 Summary  : 'Turn on strict and make most warnings fatal'
@@ -102,5 +102,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/strictures.pm
-/usr/lib/perl5/vendor_perl/5.34.0/strictures/extra.pm
+/usr/lib/perl5/*
